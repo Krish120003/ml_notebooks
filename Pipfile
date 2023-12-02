@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tinygrad = {editable = true, git = "https://github.com/tinygrad/tinygrad.git"}
+tqdm = "*"
+matplotlib = "*"
+numpy = "*"
+scikit-learn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
